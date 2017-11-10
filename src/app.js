@@ -9,8 +9,9 @@ const exampleInstance = new ExampleClass();
 
 console.log("app");
 
-function accept(instance/*: ExampleClass*/) {
+function accept(instance/*: ExampleClass*/)/*: boolean */ {
   console.log(instance);
+  return true;
 }
 
 accept(test);
