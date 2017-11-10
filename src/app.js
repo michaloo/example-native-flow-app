@@ -1,7 +1,7 @@
 /* @flow */
 /*:: import type { foo, ClassInterface } from "example-native-flow-lib" */
 
-const ExampleClass = require("example-native-flow-lib/src/example-class");
+const { ExampleClass } = require("example-native-flow-lib");
 
 const test/*: foo */ = "test";
 
@@ -15,4 +15,4 @@ function accept(instance/*: ExampleClass*/) {
 
 accept(test);
 
-console.log(exampleInstance.foo);
+console.log(exampleInstance.baz);
