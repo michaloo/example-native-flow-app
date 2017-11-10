@@ -1,0 +1,14 @@
+{
+  "name": "example-native-flow-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "flow check"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "flow-bin": "^0.59.0"
+  }
+}
